@@ -40,7 +40,7 @@ public class PanierTest {
 		assertTrue(p1.getContenance() == 5);
 		assertTrue(p1.getOranges().isEmpty());
 
-		assertTrue(p2.getContenance() == 5);
+		assertTrue(p2.getContenance() == 10);
 		assertTrue(p2.getOranges().isEmpty());
 	}
 
