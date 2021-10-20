@@ -22,8 +22,13 @@ public class Panier {
 		return oranges.size() >= contenance;
 	}
 	
-	public void ajoute(Orange o) {
-		oranges.add(o);
+	public boolean ajoute(Orange o) {
+		if(oranges.size() < contenance)
+		{
+			oranges.add(o);
+			return true;
+		}
+		return false;
 	}
 	
 	public void retire() {
